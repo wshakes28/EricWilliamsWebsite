@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Antonio&family=Bebas+Neue&family=Carter+One&family=Exo+2&family=Fjalla+One&family=Luckiest+Guy&family=Orbitron&family=Oswald&family=Phudu&family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bayon&family=Climate+Crisis&family=Playfair+Display&family=Sen&family=Vollkorn&display=swap');
+
+
+
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: #1f1006;
+
+
+}
+
+
+form { width: 800px;
+background-color: gray;
+border-radius: 25px;
+padding: 1rem;
+margin: 2rem auto;
+border: 7px double white;
+font-family: 'Sen';
+box-shadow: 0 5px 30px 10px rgba(20, 87, 158, 0.642);
+transition: all 0.3s;
+}
+
+input:valid {
+  border: 3px inset blue;
+}
+
+input:invalid {
+  border: 3px inset red;
+}
+
+       
+.btn.btn-info {
+    padding: 2rem;
+    margin-top: 4rem;
+    border-radius: 25px;
+    font-family: 'Bebas Neue';
+    color: white;
+    font-size: 2rem;
+}
+
+.d-grid.gap-2.col-6.mx-auto {
+    margin-top: 4rem;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+    padding: 10rem 0;
+    background: url(https://cdn.pixabay.com/photo/2016/07/05/23/45/inside-1499607__340.jpg);
+    background-size: cover;
+}
+
+.navbar-brand {
+
+    font-family: 'Righteous';
+  text-shadow: 2px 2px 10px rgba(72, 77, 209, 0.5), 2px 3px 10px rgba(59, 183, 245, 0.5), 2px 4px 10px rgba(59, 146, 190, 0.711);
+  color: rgb(70, 58, 232);
+  -webkit-text-stroke: 1px white;
+  font-size: 3rem;
+
+}
+
+
+
+.message {
+  width: 100%;
+  border: 3px solid black;
+  background: transparent;
+  border-radius: 10px;
+  text-align: center;
+  color: black;
+  padding: .3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+:root {
+
+
+  /* small screen font-sizes */
+  --fs-200: 0.75rem;
+  --fs-300: 1rem;
+  --fs-400: 1.25rem;
+  --fs-500: 1.375rem;
+  --fs-600: 1.75rem;
+  --fs-900: 2.125rem;
+
+  --fw-200: 200;
+  --fw-300: 300;
+  --fw-400: 400;
+  --fw-700: 700;
+
+  --clr-neutral-100: #fff;
+  --clr-neutral-200: #eef1f6;
+  --clr-neutral-300: #a9afbc;
+  --clr-neutral-400: #737b8c;
+  --clr-neutral-500: #434956;
+  --clr-neutral-900: #020203;
+
+  --clr-primary-300: #f3f7ff;
+  --clr-primary-400: #8ea8da;
+
+  --br: 1rem;
+}
+
+
+
+/* reset */
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* https://cdn.pixabay.com/photo/2022/12/19/17/18/photos-7666143_960_720.jpg */
+
+nav.navbar { background: url(IMG_20230322_192314486_PORTRAIT.jpg);
+padding: 6rem 0;
+background-size: 600px;
+background-blend-mode: multiply;
+background-color: rgba(94, 85, 224, 0.596);
+background-repeat: repeat;
+
+color: white;
+border-bottom: 5px inset white;
+}
+
+.navbar-brand { color: white;
+font-family: 'Exo 2';
+font-size: 2rem;
+font-weight: bold;}
+
+.nav-link { color: white;}
+
+
+
+.pics { width: 500px;
+      height: 500px;
+      border-radius: 25px;
+      text-align: center;
+      margin: 1.5rem auto;
+}
+
+.waltcontainer {
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+.waltcontainerMtb {
+  margin: 3rem auto;
+  padding: 1rem;
+}
+
+.waltcontainer90 {
+  width: 90rem;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+
+
+.section-title {
+    font-family: 'Righteous';
+    text-shadow: 2px 2px 10px rgba(214, 112, 112, 0.5), 2px 3px 10px rgba(192, 89, 89, 0.5), 2px 4px 10px rgba(200, 127, 127, 0.5);
+    color: rgb(6, 143, 217);
+    -webkit-text-stroke: 2px black;
+    font-size: 3rem;
+  }
+
+.section-title-red {
+
+    font-family: 'Righteous';
+    text-shadow: 2px 2px 10px rgba(214, 112, 112, 0.5), 2px 3px 10px rgba(192, 89, 89, 0.5), 2px 4px 10px rgba(200, 127, 127, 0.5);
+    color: rgb(252, 7, 7);
+    -webkit-text-stroke: 2px black;
+    font-size: 3rem;
+
+
+
+
+}
+
+.section-title-swamp {
+    text-align: center;
+    font-family: 'Righteous';
+    text-shadow: 2px 2px 10px rgba(112, 129, 214, 0.5), 2px 3px 10px rgba(89, 110, 192, 0.5), 2px 4px 10px rgba(132, 127, 200, 0.5);
+    color: rgb(252, 232, 7);
+    -webkit-text-stroke: 2px black;
+    font-size: 3rem;
+
+
+
+
+}
+
+
+.section-title-pink {
+  text-align: center;
+  font-family: 'Righteous';
+  text-shadow: 2px 2px 10px rgba(241, 156, 246, 0.5), 2px 3px 10px rgba(217, 118, 235, 0.5), 2px 4px 10px rgba(234, 85, 247, 0.5);
+  color: rgb(236, 161, 202);
+  -webkit-text-stroke: 2px white;
+  font-size: 3rem;
+
+}
+
+
+.section-title-sky {
+    text-align: center;
+    font-family: 'Righteous';
+    text-shadow: 2px 2px 10px rgba(156, 182, 246, 0.5), 2px 3px 10px rgba(118, 177, 235, 0.5), 2px 4px 10px rgba(16, 105, 239, 0.5);
+    color: rgb(161, 221, 236);
+    -webkit-text-stroke: 2px white;
+    font-size: 3rem;
+  
+  }
+
+.section-title-pinkblack {
+  text-align: center;
+  font-family: 'Righteous';
+  text-shadow: 2px 2px 10px rgba(12, 4, 12, 0.44), 2px 3px 10px rgba(10, 6, 11, 0.5), 2px 4px 10px rgba(10, 5, 10, 0.5);
+  color: rgb(236, 161, 202);
+  -webkit-text-stroke: 2px black;
+  font-size: 3rem;
+
+}
+
+  .sub-title {
+    font-family: 'Righteous';
+    text-shadow: 2px 2px 10px rgba(90, 151, 220, 0.5), 2px 3px 10px rgba(71, 147, 214, 0.5), 2px 4px 10px rgba(21, 143, 236, 0.5);
+    color: rgb(214, 72, 72);
+    -webkit-text-stroke: 2px black;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+  .font1 {
+
+    font-family: 'Bebas Neue';
+    text-shadow: 2px 2px 10px rgba(90, 151, 220, 0.5), 2px 3px 10px rgba(71, 147, 214, 0.5), 2px 4px 10px rgba(21, 143, 236, 0.5);
+    color: rgb(214, 72, 72);
+    -webkit-text-stroke: 2px black;
+    text-align: center;
+    font-size: 1.5rem;
+    letter-spacing: .3rem;
+
+  }
+
+
+  .font2 { 
+    font-family: 'Carter One';
+    text-shadow: 2px 2px 10px rgba(214, 112, 112, 0.5), 2px 3px 10px rgba(192, 89, 89, 0.5), 2px 4px 10px rgba(200, 127, 127, 0.5);
+    color: rgb(6, 143, 217);
+    text-align: center;
+    -webkit-text-stroke: 2px black;
+    font-size: 1.3rem;
+    letter-spacing: .1rem;
+  }
+
+  .font3 { 
+    font-family: 'Phudu';
+    text-shadow: 2px 2px 10px rgba(112, 204, 214, 0.5), 2px 3px 10px rgba(31, 239, 229, 0.5), 2px 4px 10px rgba(37, 236, 243, 0.5);
+    color: rgb(238, 251, 0);
+    text-align: center;
+    -webkit-text-stroke: 2px black;
+    font-size: 1.3rem;
+    letter-spacing: .1rem;
+  }
+
+  .hr {
+    margin: 1rem 0;
+    padding: .2rem;
+    background: linear-gradient(black,red,pink, red,black);
+    border: 2px solid white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.771);
+  }
+
+  .hr-city {
+
+    margin: 1rem 0;
+    padding: .5rem;
+    height: 5px;
+    background-color: red;
+    background-blend-mode: multiply;
+    background: url(https://cdn.pixabay.com/photo/2023/02/09/16/36/bridge-7779222_960_720.jpg);
+    border: 3px solid black;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.771);
+
+  }
+
+  .booty {
+    background: url(https://images-cdn.9gag.com/photo/ad6bobV_700b.jpg);
+    padding: 3rem .5rem;
+    border-radius: 25px;
+    margin: 1rem auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.737);
+    background-blend-mode: multiply;
+    background-color: rgba(255, 166, 0, 0.663);
+    background-size: 400px;
+
+  }
+  
+  section {
+    padding: 2.5rem 0;
+  }
+  
+  @media (min-width: 40em) {
+    section {
+      padding: 3.5rem 0;
+    }
+  }
+  
+
+  
+  .flow-content > * + * {
+    margin-top: var(--flow-spacer, 1em);
+  }
+  
+  .split {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .split > * + * {
+    margin: 4rem 0 0 0;
+  }
+  
+  .split > * {
+    flex-basis: 100%;
+  }
+  
+  @media (min-width: 40em) {
+    .split {
+      flex-direction: row;
+    }
+  
+    .split > * + * {
+      margin: 0 0 0 2.5rem;
+    }
+  }
+  
+  .xl-space {
+    margin-top: 5rem;
+  }
+
+
+
+   .form-control {
+    border: 3px inset black;
+    
+  }
